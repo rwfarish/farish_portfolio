@@ -69,15 +69,6 @@ const Work = props => {
             </Grid>
           </Grid>
         ))}
-        <Grid item container justify="center" xs={12}>
-          <Button
-            variant="contained"
-            color="primary"
-            size={isMd ? 'large' : 'medium'}
-          >
-            See all features
-          </Button>
-        </Grid>
       </Grid>
     </div>
   );
