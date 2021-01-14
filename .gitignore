@@ -21,6 +21,7 @@
 
 # misc
 .DS_Store
+LICENSE.md
 
 # debug
 npm-debug.log*
