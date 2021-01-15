@@ -6,10 +6,12 @@
 import React from 'react';
 import MyPage from 'views/MyPage';
 import Main from 'layouts/Main';
+import Head from 'next/head'; 
 
 const IndexPage = () => {
   return (
     <div className="container">
+      <Head><title>Bo Farish - Portfolio</title></Head>
       <Main>
         <MyPage />
       </Main>
