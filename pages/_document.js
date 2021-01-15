@@ -106,13 +106,13 @@ export default class MyDocument extends Document {
             />
             <meta
             property="og:title"
-            content="theFront | UI Kit by Maccarian Agency."
+            content="Bo Farish | Developer Portfolio"
             />
             <meta
             property="og:description"
-            content="A modern design system for your new landing and web pages."
+            content="Developer portfolio page for Bo Farish"
             />
-            <meta property="og:url" content="https://thefront.maccarianagency.com/" />
+            <meta property="og:url" content="https://farishdevportfolio.vercel.app/" />
             <link
             href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap"
             rel="stylesheet"
