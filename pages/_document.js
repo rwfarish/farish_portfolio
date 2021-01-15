@@ -102,7 +102,7 @@ export default class MyDocument extends Document {
             <meta property="og:type" content="website" />
             <meta
             property="og:image"
-            content="https://thefront.maccarianagency.com/assets/social.png"
+            content="/assets/images/illustrations/portfolio-image.png"
             />
             <meta
             property="og:title"
