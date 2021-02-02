@@ -92,7 +92,7 @@ export default class MyDocument extends Document {
             <meta name="theme-color" content="#ffffff" />
             <meta
             name="description"
-            content="A modern design system for your new landing and web pages."
+            content="Developer portfolio page for Bo Farish"
             />
             <meta
             name="robots"
