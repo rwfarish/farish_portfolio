@@ -11,7 +11,7 @@ import Head from 'next/head';
 const IndexPage = () => {
   return (
     <div className="container">
-      <Head><title>Bo Farish - Portfolio</title></Head>
+      <Head><title>Bo Farish | Portfolio</title></Head>
       <Main>
         <MyPage />
       </Main>
