@@ -10,15 +10,15 @@
   border-bottom: 1px solid rgba(62, 62, 225, 0.12);
 }
 
-/* @media screen and (max-width: 880px) {
+@media screen and (max-width: 880px) {
   .intro {
     flex-direction: column;
-    align-items: center;
+    
     padding: 0 30px;
     margin-top: 40px;
     margin-bottom: 50px;
   }
-} */
+}
 
 /* @media screen and (max-width: 600px) {
   .intro {
