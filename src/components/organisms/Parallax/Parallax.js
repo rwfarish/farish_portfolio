@@ -29,35 +29,35 @@ const useStyles = makeStyles(theme => ({
  * @param {Object} props
  */
 const Parallax = props => {
-  const { backgroundImage, children, className, ...rest } = props;
+  // const { backgroundImage, children, className, ...rest } = props;
 
-  const classes = useStyles();
+  // const classes = useStyles();
 
-  React.useEffect(() => {
-    const jarallaxElems = document.querySelectorAll('.jarallax');
-    if (!jarallaxElems || (jarallaxElems && jarallaxElems.length === 0)) {
-      return;
-    }
+  // React.useEffect(() => {
+  //   const jarallaxElems = document.querySelectorAll('.jarallax');
+  //   if (!jarallaxElems || (jarallaxElems && jarallaxElems.length === 0)) {
+  //     return;
+  //   }
 
-    const jarallax = require('jarallax').jarallax;
-    jarallax(jarallaxElems, { speed: 0.2 });
-  });
-
-  return (
-    <div
-      className={clsx('jarallax', 'parallax', classes.root, className)}
-      data-jarallax
-      data-speed="0.2"
-      {...rest}
-    >
-      <div
-        className={clsx('jarallax-img', 'parallax__image', classes.image)}
-        style={{ backgroundImage: `url(${backgroundImage})` }}
-        alt="..."
-      />
-      {children}
-    </div>
-  );
+  //   const jarallax = require('jarallax').jarallax;
+  //   jarallax(jarallaxElems, { speed: 0.2 });
+  // });
+  return
+  // return (
+  //   <div
+  //     className={clsx('jarallax', 'parallax', classes.root, className)}
+  //     data-jarallax
+  //     data-speed="0.2"
+  //     {...rest}
+  //   >
+  //     <div
+  //       className={clsx('jarallax-img', 'parallax__image', classes.image)}
+  //       style={{ backgroundImage: `url(${backgroundImage})` }}
+  //       alt="..."
+  //     />
+  //     {children}
+  //   </div>
+  // );
 };
 
 Parallax.propTypes = {

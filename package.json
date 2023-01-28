@@ -50,7 +50,6 @@
     "gatsby-plugin-react-leaflet": "^2.0.13",
     "gatsby-plugin-resolve-src": "^2.1.0",
     "history": "^4.9.0",
-    "jarallax": "^1.12.1",
     "leaflet": "^1.6.0",
     "next": "^10.0.1",
     "next-images": "^1.6.2",

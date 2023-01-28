@@ -47,12 +47,7 @@ const IconAlternate = props => {
   } = props;
 
   const classes = useStyles();
-  const useBackgroundStyles = makeStyles(() => ({
-    background: {
-      background: color[50],
-    },
-  }));
-  const backgroundClasses = useBackgroundStyles();
+ 
 
   return (
     <Avatar
@@ -60,7 +55,7 @@ const IconAlternate = props => {
         'icon-alternate',
         classes[size],
         classes[shape],
-        backgroundClasses.background,
+        
         className,
       )}
       {...rest}
@@ -68,7 +63,7 @@ const IconAlternate = props => {
       <Icon
         size={size}
         fontIconClass={fontIconClass}
-        fontIconColor={color[500]}
+        
         className="icon-alternate__icon"
         {...iconProps}
       />

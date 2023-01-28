@@ -112,7 +112,7 @@ export default class MyDocument extends Document {
             property="og:description"
             content="Developer portfolio page for Bo Farish"
             />
-            <meta property="og:url" content="https://farishdevportfolio.vercel.app/" />
+            <meta property="og:url" content="https:www.bofarish.dev" />
             <link
             href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap"
             rel="stylesheet"

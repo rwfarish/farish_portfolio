@@ -35,7 +35,7 @@ const Skills = props => {
               icon={
                 <IconAlternate
                   fontIconClass={item.icon}
-                  color={colors.indigo}
+                  
                 />
               }
               title={item.title}
